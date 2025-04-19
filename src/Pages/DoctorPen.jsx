@@ -30,6 +30,7 @@ export default function DoctorPen(){
     const [errors, setErrors] = useState({});
     const validateForm = () => {
         let newErrors = {};
+        if (!formData.intPhoneNo) newErrors.intPhoneNo = "Phone No is required.";
         if (!formData.SelDisease) newErrors.SelDisease = "Disease is required.";
         if (!formData.txtPrescription) newErrors.txtPrescription = "Prescription is required.";
         setErrors(newErrors);
