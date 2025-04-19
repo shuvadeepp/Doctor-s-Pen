@@ -1,0 +1,47 @@
+{
+  "patient-data": [
+    {
+      "id": "1",
+      "PatientName": "Shuvadeep",
+      "PhoneNo": "9199999999",
+      "Gender": 1,
+      "Dob": "07/31/1996",
+      "PatientMedicalHistory": [
+        {
+          "Date": "4/19/2025",
+          "DiseaseName": "Cold Fever",
+          "PrescriptionDetails": "A viral infection that inflames the membranes of your nose and throat."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "PatientName": "Satya Prakash",
+      "PhoneNo": "9188888888",
+      "Gender": 1,
+      "Dob": "03/16/1993",
+      "PatientMedicalHistory": [
+        {
+          "Date": "06/08/2024",
+          "DiseaseName": "Cold Fever",
+          "PrescriptionDetails": "Paracetamol 850 twice daily for 3 days. Note body temperature in regular intervals"
+        },
+        {
+          "Date": "10/12/2021",
+          "DiseaseName": "Diabetes",
+          "PrescriptionDetails": "Metformin 500mg daily before breakfast. Monitor sugar level regularly"
+        },
+        {
+          "Date": "4/19/2025",
+          "DiseaseName": "influenza (flu)",
+          "PrescriptionDetails": "test"
+        },
+        {
+          "Date": "4/19/2025",
+          "DiseaseName": "Cold Fever",
+          "PrescriptionDetails": "testtt"
+        }
+      ]
+    }
+  ]
+}
